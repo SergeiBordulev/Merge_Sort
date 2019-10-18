@@ -1,16 +1,19 @@
 /*
- * Программа поддерживает слияние двух отсортированных файлов различной длины. 
- * Сортировка производится по возрастанию.
- * Для запуска программы необходимо в командной строке записать:
- * После имени программы (Merge), указывается литера -s для сортировки строчного файла, или -i для сортировки целочисленных значений. 
- * После литеры, через пробел указывается имя выходного файла и имена входных файлов через пробел. 
+ * Author: Sergey Bordulev
+ * e-mail: skm2003@yandex.ru
  * 
- * Выходной файл с указанным Вами именем программа создает сама.
- * Пример запуска программы для сортировки файлов содержащих целые числа:
- * java Merge -i out.txt in1.txt in2.txt
+ * The program supports merging two sorted files of different lengths. 
+ * Sorting is done in ascending order.
+ * To run the program, you must write in the command line:
+ * After the program name (Merge_Sort), specify '-s' to sort the string file, or '-i' to sort the integer values. 
+ * After the letter, a space-separated name of the output file and input file names separated by a space. 
  * 
- * Пример запуска программы для сортировки файлов содержащих целые числа:
- * java Merge -s out.txt s1.txt s2.txt
+ * The program creates the output file with the name you specify.
+ * Example of running a program to sort files containing integers:
+ * java Marge_Sort -i out.txt in1.txt in2.txt
+ * 
+ * Example of running a program to sort files containing strings:
+ * java Marge_Sort -s out.txt s1.txt s2.txt
  * 
  * */
 
@@ -19,7 +22,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Merge {
+public class Merge_Sort {
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();
 		
