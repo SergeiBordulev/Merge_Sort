@@ -3,7 +3,7 @@
  * e-mail: skm2003@yandex.ru
  * 
  * The program supports merging two sorted files of different lengths. 
- * Sorting is done in ascending order.
+ * Sorting is done in ascending order..
  * To run the program, you must write in the command line:
  * After the program name (Merge_Sort), specify '-s' to sort the string file, or '-i' to sort the integer values. 
  * After the letter, a space-separated name of the output file and input file names separated by a space. 
